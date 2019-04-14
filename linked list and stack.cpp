@@ -42,6 +42,7 @@ int main() {
       cout<<"Masukan pilihan anda: "<<endl;
       cin>>ch;
       switch(ch) {
+            
          case 1: {   
             cout<<"masukan angka :"<<endl;
             cin>>val;
