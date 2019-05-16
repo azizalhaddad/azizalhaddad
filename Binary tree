@@ -45,9 +45,9 @@ int main()
         cout<<"5.Postorder "<<endl;
         cout<<"6.Menampilkan data"<<endl;
         cout<<"7.Keluar"<<endl;
-        cout<<"masukan pilihan anda: ";
-        cin>>pilihan;
-        switch(pilihan)
+        cout<<"enter your choice: ";
+        cin>>choice;
+        switch(choice)
         {
             case 1:
                 temp = new node;
