@@ -86,7 +86,7 @@ if(menu==4){
 	postOrder(&root);
 	cout<<("\n");;}
 if(menu==5){
-	cout<<"Data yang ingin dicari = ";
+	cout<<"Data yang ingin anda cari = ";
 	cin>>cari;
 	search(&root,cari);}
 
@@ -94,6 +94,4 @@ cout<<"Kembali ke menu?(1)";
 cin>>perulangan;
 system("cls");}
 while(perulangan==1);
-
-
 return 0;}
